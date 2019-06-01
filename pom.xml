@@ -56,7 +56,7 @@
 		<dependency>
 			<groupId>com.github.xMarkSt</groupId>
 			<artifactId>DamageAPI</artifactId>
-			<version>v0.1</version>
+			<version>f75eaa2da5371323170959babebf567c7e951489</version>
 		</dependency>
 	</dependencies>
 </project>
