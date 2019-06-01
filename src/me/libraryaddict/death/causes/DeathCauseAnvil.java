@@ -21,7 +21,7 @@ public class DeathCauseAnvil extends DeathCause {
             EntityDamageByEntityEvent entityEvent = (EntityDamageByEntityEvent) event;
             if (entityEvent.getDamager() instanceof FallingBlock && event.getDamage() > 0) {
                 FallingBlock block = (FallingBlock) entityEvent.getDamager();
-                return block.getBlockId() == Material.ANVIL.getId();
+                return block.getBlockData().getMaterial() == Material.ANVIL;
             }
         }
         return false;
