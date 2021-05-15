@@ -6,6 +6,7 @@
 	<version>0.1</version>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
+		<defaultGoal>clean package</defaultGoal>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -51,12 +52,12 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
-			<version>1.13.2-R0.1-SNAPSHOT</version>
+			<version>1.16.5-R0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.xMarkSt</groupId>
 			<artifactId>DamageAPI</artifactId>
-			<version>f75eaa2da5371323170959babebf567c7e951489</version>
+			<version>dcf14edccfdaaa8aeb609167477267f83e915d40</version>
 		</dependency>
 	</dependencies>
 </project>
